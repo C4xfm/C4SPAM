@@ -26,10 +26,10 @@ s = g.read().splitlines()
 
 async def home():
 	print('''
-    \x1b[31mไม่รู้
-    \x1b[00m[\x1b[31m+\x1b[00m] \x1b[35mFACEBOOK : \x1b[33mส่องแสง ฯ.
+    \x1b[00m[\x1b[31m+\x1b[00m] \x1b[35mDiscord : \x1b[33mC4xSR#8894
+    \x1b[00m[\x1b[31m+\x1b[00m] \x1b[35mFACEBOOK : \x1b[33mPhanuphong Mongkhon
 	''')
-	phone = input(" \x1b[96mPHONE-NUMBER  : \x1b[92m")
+	phone = input(" \x1b[96mgPHONE - NUMBER  : \x1b[92m")
 	
 	if int(phone) <= 99999999 or int(phone) >= 999999999:
 		print()
